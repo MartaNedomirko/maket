@@ -1,0 +1,464 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title>Maket</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <style>
+
+        .center{
+            background-color:#FFFFFF;
+            
+        }
+        .text{
+            color:#666666;
+            font-size: 40px;
+            font-weight: bold;
+            margin:100px 0 50px 0;
+        }
+        .t1{
+            color:#2D66F7;
+            margin-bottom: -0.8rem;
+            font-family: Playfair Display;
+            font-size: 5rem;
+            margin-left: 120px;
+        }
+        .t2{
+            text-align: left;
+            color:#787878;
+            margin-top: 36px;
+            font-size: 16px;
+        }
+        .t3{
+            text-align: right;
+            color: #666666;
+            font-weight: bold;
+            margin-right: 100px;
+            margin-bottom: 60px;
+        }
+        .t4{
+           font-weight: bold;
+           font-size: 40px;
+            font-family: Montserrat;
+            padding: 90px 0 20px 0;
+            color: #000;
+            background-color: #F9F9F9;
+        }
+        .t5{
+            padding: 0 0;
+            margin-top: -0.8rem;
+            margin-left: -0.7rem;
+
+        }
+        .t6{
+            width: auto;
+            height: 330px;
+            background-color:#232323;
+            color:white;
+        }
+        .t7{
+            font-family:Playfair Display;
+            font-style: italic;
+            font-size: 20px;
+        }
+        .t8{
+            font-weight: bold;
+            font-size: 42px;
+            margin-top: -0.9rem;
+
+        }
+        .t9{
+            margin-top:85px;
+        }
+        .t10{
+            height: 80px;
+            background-color:#F9F9F9;
+            width: 300px;
+        }
+       
+        .t11{
+            font-size:36px;
+            font-weight: bold;
+            line-height: 1;
+            height: 250px;
+            background-color: #F9F9F9;
+            padding-top: 100px;
+        }
+        .t12{
+            background-color: #F9F9F9;
+        }
+        .t13{
+            width: 80px;
+            height: 290px;
+            background-color: #FFFFFF;
+            margin-left: 128px;
+             margin-top: -1rem;
+
+        }
+        .t14{
+           width: 80px;
+            height: 290px;
+            background-color: #FFFFFF;
+            margin-left: 40px;
+             margin-top: -1rem; 
+            padding-top: 20px;
+            padding-left: 25px;
+        }
+        .t15{
+            color: #000;
+            font-weight: bold;
+            cursor: auto;
+            font-family: sans-serif;
+            font-size: 21px;
+            text-decoration: none;   
+        }
+        .t16{
+            font-family:Helvetica;
+            font-weight: bold;
+            color: #999999;
+            font-size: 11px;
+        }
+        .t17{
+             color: #666;
+            font-size: 15px;
+            padding-bottom: 20px;
+        }
+        .t18{
+            padding-top: 20px;
+            padding-left: 17px;
+        }
+        .t19{
+            font-size: 13px;
+            padding-left: 10px;
+        }
+        .t20{
+            padding-left: 150px
+        }
+        .t21{
+            padding-right: 160px
+        }
+        .t22{
+            font-size: 13px;
+            margin-top: -20px;
+            margin-right: 7px;
+        }
+        .button1 {
+            border: 1px solid #2D66F7;
+            border-radius: 34px;
+            padding: 11px;
+            color: #2D66F7;
+            font-size: 14px;
+            background-color: white;
+        }
+        .button1:hover {
+            background-color: #2D66F7;
+            color: white;
+        }
+        .button1:focus {
+            outline: 0;
+        }
+        .fir {
+            text-align: center;
+        }
+        header {
+            background: url('http://warhol.thememountain.com/images/slider/slide-1-fs.jpg') no-repeat center top / cover;
+            min-height: 947px;
+        }
+        .navbar-brand img {
+            width: 120px;
+        }
+        .nav a {
+            color:darkgray;
+            text-decoration: none;
+        }
+        .nav a:hover {
+            color:white;
+        }
+        li {
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .top-bar {
+            padding-top: 20px;
+        }
+        .jumbotron {
+            background-color: inherit;
+            text-align: center;
+            padding-top: 360px;
+        }
+        .jumbotron h1{
+            color:white;
+            font-size: 65px;
+            font-family: Playfair Display;
+        }
+        .button2 {
+            border: 1px solid #2D66F7;
+    border-radius: 34px;
+    padding: 11px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: white;
+    font-size: 14px;
+    background-color: #2D66F7;
+        }
+        .button2:focus {
+            outline: none;
+        }
+        .button2:hover {
+            background-color: inherit;
+            border: 1px solid white;
+        }
+        .jumb-button {
+            padding-top: 30px;
+        }
+         .t40{
+            margin-left: 90px;
+        }
+        
+        .t41{
+            margin-left: 30px;
+            position: relative;
+            background-image: url(images/11.png);
+            width:340px ;
+            height: 227px;
+            color:#FFFFFF;
+            
+        }
+        .t42{
+            background-image: url(images/22.png);
+            margin-left: 30px;
+              width:340px ;
+            height: 227px;
+        }
+        .t43{
+            background-image: url(images/33.png);
+            margin-left: 30px; 
+              width:340px ;
+            height: 227px;
+        }
+         .t44{
+            margin-left: 30px;
+            position: relative;
+            background-image: url(images/44.png);
+            width:340px ;
+            height: 227px;
+        }
+        .t45{
+            background-image: url(images/55.png);
+            margin-left: 30px;
+              width:340px ;
+            height: 227px;
+        }
+        .t46{
+            background-image: url(images/66.png);
+            margin-left: 30px; 
+              width:340px ;
+            height: 227px;
+        }
+        .t47{
+            margin-left: 90px;
+            margin-top:30px;
+        }
+        .t48{
+            font-weight: bold;
+            padding-top: 80px;
+            color: #FFFFFF;
+        }
+        .t49{
+            font-family: Playfair Display;
+            font-size: 14px;
+            color: #FFFFFF;
+        }
+        .t50{
+            margin-left: -7px;
+        }
+        .t51{
+            margin-right: -30px;
+        }
+        .t52{
+            margin-top: 100px;
+        }
+    </style>
+    </head>
+    <body>
+        <header class = "main-header">
+            <div class = "container fluid">
+                    <div class = "top-bar">
+                        <nav class = "navbar row">
+                            <div class = "navbar-header col-sm-4 col-xs-4">
+                                <a href = "#" class = "navbar-brand">
+                                     <img src = "images/logo.png" />
+                                </a>
+                            </div>
+                            <div class = "nav-top col-sm-6 col-xs-6">
+                               <ul class = "nav navbar">
+                                <li><a href = "#">Demos</a></li>
+                                <li><a href = "#">Pages</a></li>
+                                <li><a href = "#">Folio</a></li>
+                                <li><a href = "#">Blog</a></li>
+                                <li><a href = "#">Shop</a></li>
+                                <li><a href = "#">Elements</a></li>
+                                <li><a href = '#'><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+                                <li><a href = "#"><i class="fa fa-search" aria-hidden="true"></i> </a></li>
+                              </ul>
+                          </div>
+                        </nav>
+                    </div>
+                    <div class = "jumbotron">
+                        <div class="row">
+                            <div class="col-sm-12 col-xs-12">
+                                <h1>Wharhol: Creativity Defined</h1>
+                                <div class = "jumb-button">
+                                    <button class = "button2"><span><i class="fa fa-play" aria-hidden="true"></i>
+                                    </span>Play Concept</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </header>
+            <div>
+                <div class="col-sm-12 col-xs-12 text-center center ">
+                    <p class="text">Hello! We're A Creative Agency in New York City That<br>
+                    Focuses On Design, Development & Illustration.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-xs-12 text-center" >
+                    <p class="t1">20+ years</p>
+                    <p class="t3">Our Combined Experience</p>
+                </div>
+                <div class="col-sm-4 col-xs-12 text-center" >
+                    <p class="t2">Warhol is big, bold and beautiful. It combines elegance, functionality and design. If you are looking for a template that breaks the norm of multi-purpose template design, then Warhold is for you. With some 70+ pages, layouts, components, Warhold gives you a design toolkit to help you create an amazing project for you or your client!</p>
+                    <p class = "t2">
+                    <button class = "button1">More About Us</button>
+                    </p>
+                </div>
+                 <div class="col-sm-2 col-xs-12 text-center" >
+                    
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-xs-12 text-center t4">
+                    <p>Creations</p>
+                </div>
+            </div>
+             <div class="row text-center t40">
+                <div class=" t41">
+                    <h4 class="t48">Palm & Bananas</h4>
+                    <p class="t49">for Cinque</p>
+                </div>
+                 <div class=" t42">
+                    <h4 class="t48">Inced Up & Cool</h4>
+                    <p class="t49">for Type Factory</p>
+                </div>
+                 <div class=" t43">
+                    <h4 class="t48">Alike</h4>
+                    <p class="t49">for Helwen Clothing</p>
+                </div>
+            </div>
+             <div class="row text-center t47">
+                <div class=" t44">
+                    <h4 class="t48">The Boutique</h4>
+                    <p class="t49">for Vintage Co </p>
+                </div>
+                 <div class=" t45">
+                    <h4 class="t48">Big Breaeds & Home<br> Brewed Ale</h4>
+                    <p class="t49">for Hendricks Brewery</p>
+                </div>
+                 <div class=" t46">
+                    <h4 class="t48">Spring & Hippie</h4>
+                    <p class="t49">for America Apparel Clothing</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-xs-12 text-center t10">
+                    
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-xs-12 text-center t6">
+                    <div class="row">
+                        <div class="col-sm-4 col-xs-12 text-center t9">
+                            <div class="t20">
+                                <p class="t7">Projects Completed</p>
+                                <p class="t8">1,234+</p>
+                                <p class="t22">Since Creation in 2013</p>
+                             </div>
+                        </div>
+                        <div class="col-sm-4 col-xs-12 text-center t9">
+                            <p class="t7" >Awards & Mentions</p>
+                            <p class="t8">1,640+</p>
+                            <p class="t22">Best Design/Developer</p>
+                        </div>
+                        <div class="col-sm-4 col-xs-12 text-center t9">
+                            <div class="t21">
+                                <p class="t7">Global Rank</p>
+                                <p class="t8">645K</p>
+                                <p class="t22">Entrepreneur Magazine</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-xs-12 text-center t11">
+                  <div class="t12"> <p>News & Updates</p></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-xs-12 text-center t12">
+                    <div class="row ">
+                        <div class="col-sm-3 col-xs-12 text-left  t13">
+                            <div class="t18">
+                                <a  href="http://warhol.thememountain.com/blog-single-post-sidebar-right.html"class="t15">New Vintage</a> 
+                                <p class="t16">25 AUG 2015  / BY JAYDEN</p>
+                                <p class="t17">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati.
+                                <br/><span><a href = "#">More</a></span></p>
+                             </div>
+                        </div>
+                        <div class="col-sm-3 col-xs-12 text-left t14">
+                            <a href="http://warhol.thememountain.com/blog-single-post-sidebar-right.html" class="t15">From Plan to Execution</a>
+                            <p class="t16">25 AUG 2015  /  BY MADDY</p>
+                            <p class="t17">Mauris sodales in enim sit sodales dolor, placerat ultrices ut pede justo odio. In accumsan morbi at, mi luctus nullam volutpat facilisis cursus sed quis autem vel<br> eum iure.
+                            <br/><span><a href = "#">More</a></span></p>
+                        </div>
+                        <div class="col-sm-3 col-xs-12 text-left t14">
+                            <a href="http://warhol.thememountain.com/blog-single-post-sidebar-right.html" class="t15">New Team Member</a>
+                            <p class="t16">25 AUG 2015  /  BY HALEY</p>
+                            <p class="t17">Tincidunt mauris sit suspendisse.<br> Scelerisque lorem nec, tempus quis nullam nec gravida, convallis ac, nascetur id eget lectus nibh quam ad, in magna mi est adipiscing donec dui.
+                            <br/><span><a href = "#">More</a></span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class = "row">
+                <div class = "col-sm-12 col-xs-12">
+                    <p class = "fir">
+                        <button class = "button1">View All Photos</button>
+                    </p>
+                </div>
+            </div>
+            <div class="row t52">
+                <div class="col-sm-2 t51">
+                    <img src="http://warhol.thememountain.com/images/logos/meat-logo-grid.svg">
+                </div>
+                <div class="col-sm-2 t50">
+                    <img src="http://warhol.thememountain.com/images/logos/rosco-logo-grid.svg">
+                </div>
+                <div class="col-sm-2 t50">
+                    <img src="http://warhol.thememountain.com/images/logos/wicked-logo-grid.svg">
+                </div>
+                <div class="col-sm-2 t50">
+                    <img src="http://warhol.thememountain.com/images/logos/repetition-logo-grid.svg">
+                </div>
+                <div class="col-sm-2 t50">
+                    <img src="http://warhol.thememountain.com/images/logos/macaw-logo-grid.svg">
+                </div>
+                <div class="col-sm-2 t50">
+                    <img src="http://warhol.thememountain.com/images/logos/adventure-logo-grid.svg">
+                </div>
+            </div>
+    </body>
+</html>
